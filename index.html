@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      background: #333333;;
+    }
+    #div {
+      background: red;
+      width: 1000px;
+      height: 800px;
+      transition: all 0.3s ease 0s;
+    }
+    .input {
+      display: flex;
+      margin: 20px 0px;
+    }
+    .inp {
+      display: flex;
+      margin: 40px 0px;
+      background: #fff;
+    }
+    div {
+      position: absolute;
+      top: 0;
+      left: 630px;
+    }
+    .text {
+      color: #fff;
+      font-size: 30px;
+      margin: 20px 180px;
+    }
+    .text2  {
+      color: #fff;
+      font-size: 30px;
+      margin: 20px 220px;
+    }
+    .range {
+      margin: 40px 70px;
+    }
+    .text3 {
+      margin: 0px 150px;
+      color: #fff;
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!--Border Radius-->
+  <h2 class="text">Border Radius</h2>
+  <input type="range" value="0" id="inp">
+  <input type="range" value="0" id="inp2">
+  <input type="range" value="0" id="inp3">
+  <input type="range" value="0" id="inp4">
+  <!--Color-->
+  <h2 class="text2">Color</h2>
+  <input type="color" class="inp" id="color" >
+  <!--Height and Width-->
+  <h2 class="text3">Height and Width</h2>
+  <input type="range" class="range" id="height" value="0">
+  <input type="range" class="range" id="width" value="0">
+  <!--Border-->
+  <div id="div">
+    <div class="" id="div2"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
